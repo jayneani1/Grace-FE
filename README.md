@@ -2,19 +2,24 @@
 
 ## Project Links
 - Front-end link
-- Back-end link
-- (https://www.behance.net/gallery/83985797/Milan-Fashion-App-UI-Kit "UI Inspo")
+- Back-end link https://github.com/jayneani1/Grace-BE
+- UI Inspo https://www.behance.net/gallery/83985797/Milan-Fashion-App-UI-Kit
 
 ## Project Description
 A gratitude journal/ mood tracker. The goal is to write down at least one thing you are grateful for a day and hopefully this will boost your mood over time. 
 
+## Side Note
+I want to make a big push for a front end design I find beautiful. I have not been able to acheive a look on my apps that I've been 100%v happy with. 
+
 ## Wireframes
-- Cell: (https://res.cloudinary.com/dnxx8igwb/image/upload/v1588952532/6C01D3F0-6ECC-432A-B065-49F57C1DF6D3_unhxgm.jpg)
-- Desktop: ( https://res.cloudinary.com/dnxx8igwb/image/upload/v1588952543/8776C0D1-EC81-4EE7-9F08-EA22F838C820_fgoeq8.jpg)
+- Cell: https://res.cloudinary.com/dnxx8igwb/image/upload/v1588952532/6C01D3F0-6ECC-432A-B065-49F57C1DF6D3_unhxgm.jpg
+- Desktop: https://res.cloudinary.com/dnxx8igwb/image/upload/v1588952543/8776C0D1-EC81-4EE7-9F08-EA22F838C820_fgoeq8.jpg
 
 ## MVP
 - Dissappearing/ reappearing search bar
-- Python JWT login
+- Python JWT login/ functioning login
+- responsive mobile first design
+
 
 ## PostMVP
 - Custom Background
