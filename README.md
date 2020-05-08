@@ -26,7 +26,7 @@ Architecture:
 - mood filtering ability
 
 ## Component|	Priority|	Estimated Time|	Time Invetsted|	Actual Time
---- | --- | --- | --- | ---|
+| --- | :---: |  :---: | :---: | :---: |
 Deploying| H |	3 hrs |	 |  |	
 JWT |	H |	3hrs |	| |
 Backend Python | H | 7 hrs | | |
