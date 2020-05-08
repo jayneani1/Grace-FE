@@ -1,7 +1,7 @@
 # Grace
 
 ## Project Links
-- Front-end link
+- Front-end link https://github.com/jayneani1/Grace-FE/blob/master/README.md
 - Back-end link https://github.com/jayneani1/Grace-BE
 - UI Inspo https://www.behance.net/gallery/83985797/Milan-Fashion-App-UI-Kit
 
