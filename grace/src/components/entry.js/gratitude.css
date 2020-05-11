@@ -1,50 +1,50 @@
-.companies-background {
-    background-image: url("https://res.cloudinary.com/doaftkgbv/image/upload/v1587658644/so-white_bpmwjw.png");
+.gratitude-background {
+    background-color: #E1D8CE;
     height: 100vh;
 }
 
-.companies-description {
+.gratitude-description {
     text-align: center;
     margin: 2% auto;
     font-weight: bold;
-    color: #768987;
+    color: #2d393c;
 }
 
-.companies {
+.gratitude {
     margin: 13% auto;
 }
 
-.companies > .form-row > .col > .form-group > input {
+.gratitude > .form-row > .col > .form-group > input {
     position: relative;
     z-index: 1;
 }
 
-.companies > .form-row:nth-of-type(1) >.col:nth-of-type(1), .companies > .form-row:nth-of-type(3) >.col:nth-of-type(1){
+.gratitude > .form-row:nth-of-type(1) >.col:nth-of-type(1), .gratitude > .form-row:nth-of-type(3) >.col:nth-of-type(1){
     padding-right: 0;
 }
 
-.companies > .form-row:nth-of-type(1) >.col:nth-of-type(2), .companies > .form-row:nth-of-type(3) >.col:nth-of-type(2){
+.gratitude > .form-row:nth-of-type(1) >.col:nth-of-type(2), .gratitude > .form-row:nth-of-type(3) >.col:nth-of-type(2){
     padding-left: 0;
 }
 
-.companies > .form-row:nth-of-type(2){
+.gratitude > .form-row:nth-of-type(2){
     padding: 1% 0;
 }
 
-.companies > .submit {
+.gratitude > .submit {
     position: relative;
     z-index: 1;
     font-weight: bold;
     display: block;
     width: 200px;
-    color: #41b3a3;
-    border-color: #41b3a3;
+    color: #c58870;
+    border-color: #c58870;
     margin: 15px auto;
     box-shadow: 0px 5px 10px rgb(71,71,71)
 }
 
 .submit:hover {
-    box-shadow: inset 0px 0px 36px -9px rgba(66, 179, 163,1);
+    box-shadow: inset 0px 0px 36px -9px #c58870;
     color: white;
 }
 
@@ -52,19 +52,19 @@
     display: block;
     margin: 2% auto;
     border: none;
-    box-shadow: 0px 0px 36px -9px rgba(195,141,158,1);
+    box-shadow: 0px 0px 36px -9px black;
     z-index: 1;
 }
 
-.container > .row > .companies-card > .card-header {
+.container > .row > .gratitude-card > .card-title {
     text-transform: uppercase;
-    color: #41b3a3;
+    color: #2d393c;
     font-size: 20px;
-    font-family: 'Rammetto One', cursive;
+    font-family: 'roboto', cursive;
 }
 
-.container > .row > .companies-card > .card-body > p:nth-of-type(2) > a {
-    color: #41b3a3;
+.container > .row > .gratitude-card > .card-body > p:nth-of-type(2) > a {
+    color: #c58870;
     text-decoration: none;
 }
 
@@ -75,14 +75,14 @@
 }
 
 .far:hover {
-    color: #41b3a3;
+    color: #c58870;
 }
 
 p > span {
     font-weight: bold;
 }
 
-.companies-chevron {
+.gratitude-chevron {
     position: relative;
     text-align: center;
     padding: 12px;
@@ -92,7 +92,7 @@ p > span {
     width: 100%;
 }
 
-.companies-chevron:before {
+.gratitude-chevron:before {
     content: '';
     position: absolute;
     top: 0;
@@ -103,7 +103,7 @@ p > span {
     transform: skew(0deg, 6deg);
 }
 
-.companies-chevron:after {
+.gratitude-chevron:after {
     content: '';
     position: absolute;
     top: 0;
