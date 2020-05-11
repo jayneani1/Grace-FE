@@ -4,7 +4,7 @@ import { TrackerContext } from "../../App"
 import Moment from "react-moment"
 
 export default function Cards( {handleDelete} ){
-    const sharedStates = useContext(TrackerContext)
+    const sharedStates = useContext(TrackerContext) 
 
     return (
         <>
