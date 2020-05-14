@@ -1,6 +1,7 @@
 import React, {useState, createContext } from 'react';
 import './App.css';
 import GratitudeApplications from "./components/entry/main";
+import NoAccess from './components/auth/NoAccess';
 
 function App() {
     const [primaryKey, setPrimaryKey] = useState(0);
@@ -40,7 +41,7 @@ function App() {
                     entryPayload,
                 }
             }>
-                <GratitudeApplications/>
+                <GratitudeApplications />
             </UniversalContext.Provider>
         </div>
     );

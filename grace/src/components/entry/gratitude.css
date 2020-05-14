@@ -109,6 +109,7 @@ p > span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -10px;
     align-items: center;
     text-align: center;
     min-height: 100vh;
@@ -170,15 +171,7 @@ p > span {
     opacity: 1;
 }
 
-@media(min-width: 375px) {
-    .create-entry h1 {
-        font-size: 1.5em;
-    }
 
-    .create-entry-Input {
-        width: 75%;
-    }
-}
 
 @media(min-width: 425px) {
     .create-entry h1 {
