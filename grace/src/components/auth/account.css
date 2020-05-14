@@ -1,0 +1,34 @@
+.loginContainer{
+    width: 350px;
+    background-color: #c58870;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.loginContainer-Button{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #c9b6ad;
+    color: #2d393c;
+    font-weight: bold;
+}
+
+.loginContainer-input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+span.navbar-text{
+    cursor: pointer;
+}
+
+.noAccess{
+    margin-top: 40px;
+    text-align: center;
+}
