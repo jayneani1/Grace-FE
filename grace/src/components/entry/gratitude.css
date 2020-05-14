@@ -3,7 +3,6 @@
     height: 100vh;
 }
 
-
 .gratitude-description {
     text-align: center;
     font-weight: bold;
@@ -202,38 +201,3 @@ p > span {
         width: 120px;
     }
 }
-
-
-
-/* .gratitude-chevron {
-    position: relative;
-    text-align: center;
-    padding: 12px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    height: 400px;
-    width: 100%;
-}
-
-.gratitude-chevron:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 50.5%;
-    background:  rgba(66, 179, 163, 0.8);
-    transform: skew(0deg, 6deg);
-}
-
-.gratitude-chevron:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    background:  rgba(66, 179, 163, 0.8);
-    transform: skew(0deg, -6deg);
-} */
-

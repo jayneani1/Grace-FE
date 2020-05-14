@@ -35,12 +35,3 @@ export const createEntry = async (entry, token) => {
 		return err
 	}
 }; 
-
-export const getEntryDetails = async (id) => {
-	try {
-		return await api.get(`entries/public-entries/${id}`)
-	} catch (e) {
-		console.log(e);
-		return (e);
-	}
-};
