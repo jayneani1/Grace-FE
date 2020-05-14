@@ -28,18 +28,18 @@ I want to make a big push for a front end design I find beautiful. I have not be
 
 | Component|	Priority|	Estimated Time|	Time Invetsted|	Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Deploying| H |	3 hrs |	 |  |	
+| Deploying| H |	3 hrs |	7hrs | 7hrs |	
 | JWT |	H |	3hrs |	| |
-| Backend Python | H | 7 hrs | | |
-| Form | H | 2 hrs |. |. |
+| Backend Python | H | 7 hrs | 6 hrs |6 hrs |
+| Form | H | 2 hrs | 1 hr | 1 hr |
 | Cards| H | 2 hrs |. |. |
-| Nav Bar | L | 1 hr |. |. |
-| Connecting both parts | H | 5 hrs |. |. |
-| Frontend Styling | L | 3 hrs |. |. |
-| Debug | H | 7 hrs |  |. |
+| Nav Bar | L | 1 hr | 1 hr | 1 hr |
+| Connecting both parts | H | 5 hrs | 1 hr |. |
+| Frontend Styling | L | 3 hrs | 7 hrs | 7 hrs|
+| Debug | H | 7 hrs | 3 hrs  |. |
 | Custom background pmvp | L | 3 hrs |. |. |
-| Research | H | 3 hrs |. |. |
-| Total |. |38 hrs |. |. |
+| Research | H | 3 hrs | 2 hrs |2 hrs |
+| Total |. |38 hrs | |. |
 
 
 
