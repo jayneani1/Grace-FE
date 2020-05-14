@@ -40,7 +40,7 @@ function App() {
                     entryPayload,
                 }
             }>
-                <GratitudeApplications/>
+                <GratitudeApplications />
             </UniversalContext.Provider>
         </div>
     );

@@ -141,15 +141,15 @@ export default function CreateEntry(props) {
 						/>
 						<input className="create-entry-Input"
 						       type="text"
-						       name="summary"
-						       placeholder="SUMMARY"
-						       value={universalContext.newEntry.summary}
+						       name="mood"
+						       placeholder="MOOD"
+						       value={universalContext.newEntry.Mood}
 						       onChange={universalContext.handleChange} required
 						/>
 						<textarea className="create-entry-Input"
-						          name="mood"
-						          placeholder="MOOD"
-						          value={universalContext.newEntry.mood}
+						          name="summary"
+						          placeholder="SUMMARY"
+						          value={universalContext.newEntry.summary}
 						          onChange={universalContext.handleChange} required
 						/>
 						<button className="create-entry-form-button" type="submit" onClick={handleSubmit}>submit</button>
