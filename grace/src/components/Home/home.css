@@ -1,0 +1,44 @@
+.homePage-contentContainer{
+    max-width: 90%;
+    width: 800px;
+    margin: 20px auto;
+}
+.homePage-contentContainer > p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.homePageContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1d8ce;
+    height: 100vh;
+}
+
+.homePage-authContainer{
+    margin: 0 auto;
+}
+
+p.welcomeHook{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+
+@media (min-width: 768px){
+    .homePageContainer{
+        flex-direction: row;
+    }
+
+    .landingPage-contentContainer{
+        max-width: 60%;
+        width: 800px;
+        margin: 50px auto;
+    }
+
+    .landingPage-authContainer{
+        margin: 25px;
+    }
+
+
+}

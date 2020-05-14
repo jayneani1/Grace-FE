@@ -1,14 +1,16 @@
 import React from "react";
-import GratitudeForm from "./textInput"
 import Description from "./gratitudeDescription"
+import CreateEntry from "./textInput"
+import Header from "./header"
 
 export default function GratitudeApplications() {
   return (
     <div className="gratitude-background">
+      <Header />
       <Description />
+      <CreateEntry />
       <div className="gratitude-chevron">
-        <GratitudeForm />
       </div>
     </div>
   );
-};
+}; 
