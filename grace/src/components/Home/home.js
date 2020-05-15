@@ -20,7 +20,7 @@ const Home = () => {
       alignItems: "center",
       justifyContent: "center",
       paddingTop: "60px",
-      paddingRight: "10px"}} src="https://res.cloudinary.com/dnxx8igwb/image/upload/v1589479717/imageedit_3_8065322209_i3edqx.png" alt="enter"></img></a>
+      paddingRight: "15px"}} src="https://res.cloudinary.com/dnxx8igwb/image/upload/v1589479717/imageedit_3_8065322209_i3edqx.png" alt="enter"></img></a>
       <Route path="/main" cmponent={Main}/>
     </div>
     </div>
