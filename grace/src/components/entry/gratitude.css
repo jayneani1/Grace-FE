@@ -1,203 +1,197 @@
-.gratitude-background {
-    background-color: #E1D8CE;
+body {
     height: 100vh;
+   background-color: #e1d8ce;
+}
+
+.gratitude-background {
+background-color: #C9B6AC;
+height: 100vh;
 }
 
 .gratitude-description {
-    text-align: center;
-    font-weight: bold;
-    color: #2d393c;
-    padding-top: 100px;
+text-align: center;
+font-weight: bold;
+color: #2d393c;
+padding-top: 100px;
 
+}
+
+.gratDescription {
+color: #C9B6AC;
 }
 
 .gratitude {
-    margin: 13% auto;
+margin: 13% auto;
 }
 
-img {
-    padding-top: 40px;
-    height: 100px;
-    width: 75px;
+.lotus {
+padding-top: 40px;
+height: 100px;
+width: 75px;
+margin-bottom: 30px;
 }
 
 .gratitude > .form-row > .col > .form-group > input {
-    position: relative;
-    z-index: 1;
+position: relative;
+z-index: 1;
 }
 
 .gratitude > .form-row:nth-of-type(1) >.col:nth-of-type(1), .gratitude > .form-row:nth-of-type(3) >.col:nth-of-type(1){
-    padding-right: 0;
+padding-right: 0;
 }
 
 .gratitude > .form-row:nth-of-type(1) >.col:nth-of-type(2), .gratitude > .form-row:nth-of-type(3) >.col:nth-of-type(2){
-    padding-left: 0;
+padding-left: 0;
 }
 
 .gratitude > .form-row:nth-of-type(2){
-    padding: 1% 0;
+padding: 1% 0;
 }
 
 .gratitude > .submit {
-    position: relative;
-    z-index: 1;
-    font-weight: bold;
-    display: block;
-    width: 200px;
-    color: #c58870;
-    border-color: #c58870;
-    margin: 15px auto;
-    box-shadow: 0px 5px 10px rgb(71,71,71)
-}
-
-.submit:hover {
-    box-shadow: inset 0px 0px 36px -9px #c58870;
-    color: white;
-}
-
-.companies-card {
-    display: block;
-    margin: 2% auto;
-    border: none;
-    box-shadow: 0px 0px 36px -9px black;
-    z-index: 1;
+position: relative;
+z-index: 1;
+font-weight: bold;
+display: block;
+width: 200px;
+color: #c58870;
+border-color: #c58870;
+margin: 15px auto;
+box-shadow: 0px 5px 10px rgb(71,71,71)
 }
 
 .container > .row > .gratitude-card > .card-title {
-    text-transform: uppercase;
-    color: #2d393c;
-    font-size: 20px;
-    font-family: 'roboto', serif;
+text-transform: uppercase;
+color: #2d393c;
+font-size: 20px;
+font-family: 'roboto', serif;
 }
 
 .container > .row > .gratitude-card > .card-body > p:nth-of-type(2) > a {
-    color: #c58870;
-    text-decoration: none;
+color: #c58870;
+text-decoration: none;
 }
 
 .far {
-    display: flex;
-    flex-direction: row-reverse;
-    cursor: pointer;
+display: flex;
+flex-direction: row-reverse;
+cursor: pointer;
 }
 
 .far:hover {
-    color: #c58870;
+color: #c58870;
 }
 
 p > span {
-    font-weight: bold;
+font-weight: bold;
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 .auth-body {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #E1D8CE;
-    min-width: 320px;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #E1D8CE;
+min-width: 320px;
 }
 
 .create-entry-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -10px;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, #e1d8ce 0%, #c9b6ad 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: -20px;
+margin-bottom: 10px;
+padding-bottom: 70px;
+align-items: center;
+text-align: center;
+min-height: 100vh;
+background-image: linear-gradient(to top, #e1d8ce 0%, #c9b6ad 100%);
 }
 
 .create-entry-container {
-    width: 85%;
-    font-family: Roboto, serif;
-    background: #c58870;
-    box-shadow: 20px 25px 20px -25px #2d393c;
-    border-radius: 9px;
-    text-align: center;
-    /*opacity: 0.5; */
+width: 85%;
+font-family: Roboto, serif;
+background: #c58870;
+box-shadow: 30px 25px 20px -25px #2d393c;
+border-radius: 0px;
+text-align: center;
+/*opacity: 0.5; */
 }
 
 .create-entry h1 {
-    color: #2d393c;
-    padding: 30px;
-    font-size: 1em;
+color: #2d393c;
+padding: 30px;
+font-size: 1em;
 }
 
 .create-entry-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .create-entry-Input {
-    font-weight: 400;
-    font-family: Roboto, serif;
-    color: #2d393c;
-    width: 85%;
-    padding: 12px 20px;
-    margin: 8px auto;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    background: #ffffff;
+font-weight: 400;
+font-family: Roboto, serif;
+color: #2d393c;
+width: 85%;
+padding: 12px 20px;
+margin: 8px auto;
+border: 1px solid #ffffff;
+border-radius: 0px;
+background: #ffffff;
 }
 
 .create-entry-form-button {
-    color:#E1D8CE;
-    font-family: Roboto, serif;
-    border: none;
-    width: 40%;
-    margin: 20px 0 20px 0;
-    background-color: #2d393c;
-    padding: 10px 15px 10px;
-    text-align: center;
-    letter-spacing: 1.4px;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    justify-content: center;
-}
-
-.create-entry-form-button:hover {
-    box-shadow: inset 0px 0px 20px -9px grey;
-    opacity: 1;
+color:#E1D8CE;
+font-family: Roboto, serif;
+border: none;
+width: 40%;
+margin: 20px 0 20px 0;
+background-color: #2d393c;
+padding: 10px 15px 10px;
+text-align: center;
+letter-spacing: 1.4px;
+align-items: center;
+align-content: center;
+align-self: center;
+justify-content: center;
 }
 
 
 
 @media(min-width: 425px) {
-    .create-entry h1 {
-        font-size: 1.3em;
-    }
+.create-entry h1 {
+  font-size: 1.3em;
+}
 }
 
 @media(min-width: 768px) {
-    .create-entry-container {
-        width: 50%;
-    }
+.create-entry-container {
+  width: 50%;
+}
 
-    .create-entry h1 {
-        font-size: 1.25em;
-    }
+.create-entry h1 {
+  font-size: 1.25em;
+}
 }
 
 @media(min-width: 1024px) {
-    .create-entry h1 {
-        font-size: 1.25em;
-    }
+.create-entry h1 {
+  font-size: 1.25em;
+}
 
-    .create-entry-Input {
-        font-weight: 400;
-        font-size: .9em;
-    }
-    .create-entry-form-button {
-        width: 120px;
-    }
+.create-entry-Input {
+  font-weight: 400;
+  font-size: .9em;
+}
+.create-entry-form-button {
+  width: 120px;
+}
 }
