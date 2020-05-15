@@ -2,6 +2,7 @@ import React from "react";
 import Description from "./gratitudeDescription"
 import CreateEntry from "./textInput"
 import Header from "./header"
+import Cards from './card'
 
 export default function GratitudeApplications() {
   return (
@@ -9,8 +10,7 @@ export default function GratitudeApplications() {
       <Header />
       <Description />
       <CreateEntry />
-      <div className="gratitude-chevron">
-      </div>
+      <Cards />
     </div>
   );
 }; 

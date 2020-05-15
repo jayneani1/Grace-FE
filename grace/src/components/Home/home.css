@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+   background-color: #e1d8ce;
+}
+
 .homePage-contentContainer{
     max-width: 90%;
     width: 800px;
@@ -15,30 +20,31 @@
     height: 100vh;
 }
 
+
+@media (min-width: 400px){
+    .homePageContainer{
+        background-color: #e1d8ce;
+    }
+}
+
 .homePage-authContainer{
     margin: 0 auto;
 }
-
-p.welcomeHook{
-    font-size: 28px;
-    margin-bottom: 50px;
-}
-
 
 @media (min-width: 768px){
     .homePageContainer{
         flex-direction: row;
     }
 
-    .landingPage-contentContainer{
-        max-width: 60%;
-        width: 800px;
-        margin: 50px auto;
+    .enterImage {
+        height: 85vh;
+        margin: 1% auto;
+        padding-top: 55px;
     }
 
-    .landingPage-authContainer{
-        margin: 25px;
-    }
+}
 
-
+.enterImage {
+    height: 85vh;
+    margin: 7% auto;
 }

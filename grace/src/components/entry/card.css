@@ -1,0 +1,25 @@
+.gratCard {
+    margin: 3% auto;
+    display: block;
+    position: relative;
+    justify-content: space-around;
+    flex-shrink: 1em;
+    text-align: left;
+    padding: auto;
+    width: 90%;
+    border-width: 3px;
+    -webkit-box-shadow: 20px 15px 10px -15px #2d393c;
+    -moz-box-shadow: 20px 15px 10px -15px #2d393c;
+    box-shadow: 20px 15px 10px -15px #2d393c;
+    z-index: -1;
+  }
+
+   .far {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .container > .row > .gratCrad > p:nth-of-type(2) > a {
+    color: #8aa19e;
+    text-decoration: none;
+  } 

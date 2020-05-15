@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react"
+import React, { useState, useContext, useEffect } from "react"
 import {UniversalContext} from "../../App";
 import { Form, Col, Container, Row } from "react-bootstrap"
 //import { updateUserProfile } from '../../services/api-helper-userProfile'
@@ -13,117 +13,38 @@ import "./gratitude.css"
 import {createEntry} from "../services/api-helper"
 
 
-/* export default function GratitudeForm(){
-    const isDesktop = useMediaQuery({query: "(min-width:1020px)"}) 
-     const sharedStates = useContext(TrackerContext); 
-    const [gratitude, setGratitude] = useState([
-        {
-            Title: "",
-            Date: "",
-            Summary: "",
-            Mood: "",
-        }
-    ])
-    
-    const universalContext = useContext(UniversalContext);
-
-	const handleSubmit = async (e) => {
-		e.preventDefault();
-		await createEntry(universalContext.entryPayload, universalContext.userInfo.token).then(response => {
-			if (response.status === 201) {
-				props.history.push("/home");
-			}
-		}).catch(error => {
-			return(error);
-		});
-	};
-    
-
-    return (
-        <>
-            {
-                isDesktop ? 
-                    (
-                        <Form style={{width: "50%", display: "block", margin: "4% auto"}} className="gratitude" onSubmit={handleSubmit}>
-                            <Form.Row>
-                                <Col>
-                                    {<Title gratitude={gratitude} setGratitude={setGratitude} />}
-                                </Col>
-                                <Col>
-                                    <Date gratitude={gratitude} setGratitude={setGratitude} />
-                                </Col>
-                            </Form.Row>
-                            <Form.Row>
-                                <Col>
-                                    <Summary gratitude={gratitude} setGratitude={setGratitude} />
-                                </Col>
-                            </Form.Row>
-                            <Form.Row>
-                                <Col>
-                                    <Mood gratitude={gratitude} setGratitude={setGratitude} />
-                                </Col>
-                                <Col>
-                                <Form.Control className="submit" type="Submit" value="Submit" />
-                                </Col>
-                            </Form.Row>
-                        </Form>
-                    ) : 
-                    (
-                        <Form style={{width: "50%", display: "block", margin: "4% auto"}} className="gratitude" onSubmit={handleSubmit}>
-                        <Form.Row>
-                            <Col>
-                                <Title gratitude={gratitude} setGratitude={setGratitude} /> }
-                            </Col>
-                            <Col>
-                                <Date gratitude={gratitude} setGratitude={setGratitude} />
-                            </Col>
-                        </Form.Row>
-                        <Form.Row>
-                            <Col>
-                                <Summary gratitude={gratitude} setGratitude={setGratitude} />
-                            </Col>
-                        </Form.Row>
-                        <Form.Row>
-                            <Col>
-                                <Mood gratitude={gratitude} setGratitude={setGratitude} />
-                            </Col>
-                            <Col>
-                            <Form.Control className="submit" type="Submit" value="Submit" />
-                            </Col>
-                        </Form.Row>
-                    </Form>
-                    )
-            }
-                        <Container>
-                            <Row>
-                                <Cards handleDelete={handleDelete}/>
-                            </Row>
-                        </Container>
-        </>
-    )
-}  */
-
-
-
 export default function CreateEntry(props) {
-	const universalContext = useContext(UniversalContext);
+    const universalContext = useContext(UniversalContext);
+    const [newEntry, setNewEntry] = useState({
+        Title: "",
+        Date: "",
+        Summary: "",
+        Mood: "",
+        is_public: "True",
+      })
+
+    const [Entry, setEntry] = useState({
+      })
+console.log(Entry)
 
 	const handleSubmit = async (e) => {
-		e.preventDefault();
-		await createEntry(universalContext.entryPayload, universalContext.userInfo.token).then(response => {
-			if (response.status === 201) {
-				props.history.push("/home");
-			}
-		}).catch(error => {
-			return(error);
-		});
-	};
+        e.preventDefault()
+        const res = await createEntry(newEntry)
+        .then(response => {
+            if(response.status === 201) {
+                Entry.push(res)
+                setEntry(res)
+                console.log("sup")
+                 // works but needs to render on page after submit
+            }
+        })
+    }
 
 	return (
 		<div className="auth-body">
 			<div className="create-entry-wrapper">
 				<div className="create-entry-container">
-					<div className="create-entry"><h1>What are you grateful for?</h1></div>
+					<div className="create-entry"><h1> <img className="lotus" src="https://cdn0.iconfinder.com/data/icons/flowers-3/450/lotus-512.png"></img></h1></div>
 					<form onSubmit={handleSubmit} className="create-entry-form">
 						<input className="create-entry-Input"
 						       type="text"
@@ -143,7 +64,7 @@ export default function CreateEntry(props) {
 						       type="text"
 						       name="mood"
 						       placeholder="MOOD"
-						       value={universalContext.newEntry.Mood}
+						       value={universalContext.newEntry.mood}
 						       onChange={universalContext.handleChange} required
 						/>
 						<textarea className="create-entry-Input"

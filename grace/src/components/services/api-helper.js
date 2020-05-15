@@ -1,8 +1,10 @@
 import axios from 'axios'
 
 const api = axios.create({
-	baseURL: "https://jaynegrace3/.herokuapp.com/"
+	baseURL: "https://jaynegrace3.herokuapp.com"
 }); 
+
+
 
 export const createUser = async (user) => {
 	try {
@@ -22,13 +24,9 @@ export const verifyUser = async (user) => {
 	}
 };
 
-export const createEntry = async (entry, token) => {
+export const createEntry = async (entry) => {
 	try {
-		return await api.post(`/entry/entry/`, entry, {
-			headers: {
-				authorization: 'JWT ' + token
-			}
-		});
+		return await api.post(`/entries/create-entry/`, entry);
 	}
 	catch (err) {
 		console.log(err)
