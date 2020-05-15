@@ -28,18 +28,18 @@ I want to make a big push for a front end design I find beautiful. I have not be
 
 | Component|	Priority|	Estimated Time|	Time Invetsted|	Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Deploying| H |	3 hrs |	7hrs | 7hrs |	
-| JWT |	H |	3hrs |	| |
+| Deploying| H |	3 hrs |	17hrs | 17hrs |	
+| JWT |	H |	3hrs |	5hrs| 5hrs|
 | Backend Python | H | 7 hrs | 6 hrs |6 hrs |
 | Form | H | 2 hrs | 1 hr | 1 hr |
-| Cards| H | 2 hrs |. |. |
+| Cards| H | 2 hrs | 2 hrs | 2 hrs|
 | Nav Bar | L | 1 hr | 1 hr | 1 hr |
-| Connecting both parts | H | 5 hrs | 1 hr |. |
+| Connecting both parts | H | 5 hrs | 1 hr | 3 hrs |
 | Frontend Styling | L | 3 hrs | 7 hrs | 7 hrs|
-| Debug | H | 7 hrs | 3 hrs  |. |
-| Custom background pmvp | L | 3 hrs |. |. |
+| Debug | H | 7 hrs | 3 hrs  | 7 hrs |
+| Custom background pmvp | L | 3 hrs | 45mins | 45|
 | Research | H | 3 hrs | 2 hrs |2 hrs |
-| Total |. |38 hrs | |. |
+| Total |. |38 hrs | | 52 hrs.... |
 
 
 
@@ -48,5 +48,5 @@ I want to make a big push for a front end design I find beautiful. I have not be
 - Still researching an extra library to use for something we didnt learn in class. 
 
 ## Issues
-
-## Code Snippet
+- I could not figure out an issue with sibmitting my form. I spent 6 hours on zoom calls with the TA and other students. 
+- Deploying backend took me a total of 7 hrs and the front end I worked on for 3 hrs on the frontend.
